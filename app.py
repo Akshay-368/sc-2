@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 import pickle
 
 # Load the dataset
-df = pd.read_csv("/content/spam .csv")  # Ensure the correct path to your CSV file
+df = pd.read_csv("spam .csv")  # Ensure the correct path to your CSV file
 y = df['Category']  # The target column, typically labeled as 'spam' or 'ham'
 x = df['Message']  # The text messages to classify
 
